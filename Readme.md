@@ -24,5 +24,5 @@ Will issue permissions to read the file
 ## 4 step need create `UserParameter` in `zabbix-agentd.conf`
 ```
 UserParameter=wgclients,/home/scripts/wgclient.sh
-UserParameter=pub.key.cli[*],/home/scripts/wgpubkey.sh $1
+UserParameter=pub.key.cli[*],/home/scripts/wgpaddress.sh $1
 ```
